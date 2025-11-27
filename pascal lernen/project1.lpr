@@ -6,15 +6,22 @@ uses
   {$IFDEF UNIX}
   cthreads,
   {$ENDIF}
-  Classes,
-  Unit1, Unit2;
-var
-  Tuer: TTuer;
+  {$IFDEF HASAMIGA}
+  athreads,
+  {$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+    Forms, Unit1, Unit2
 
 
+{$R *.res}
 
 begin
-  InitialisiereTuer(Tuer);
-
+  RequireDerivedFormResource:=True;
+  Application.Scaled:=True;
+  {$PUSH}{$WARN 5044 OFF}
+  Application.MainFormOnTaskbar:=True;
+  {$POP}
+  Application.Initialize;
+  Application.Run;
 end.
 

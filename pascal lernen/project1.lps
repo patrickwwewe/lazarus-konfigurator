@@ -8,28 +8,31 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="3" Y="17"/>
+        <CursorPos X="2" Y="14"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
+        <Filename Value="project1.lpi"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit>
+      <Unit>
         <Filename Value="unit1.pas"/>
-        <IsPartOfProject Value="True"/>
         <UnitName Value="UNIT1"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="58"/>
-        <CursorPos X="62" Y="70"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="10"/>
+        <CursorPos X="76" Y="42"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unit2.pas"/>
-        <IsPartOfProject Value="True"/>
         <UnitName Value="Unit2"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="45" Y="9"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
