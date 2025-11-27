@@ -39,7 +39,7 @@ const
 // ---------- Aufzählungstypen für Material & Modell ----------
 
 type
-  TMaterial = (matUnbekannt, matHolz, matMDF, matStahl);   //Aufzählungstyp Enum
+  TMaterial = (matUnbekannt, matHolz, matMDF, matStahl);
   TModell   = (modUnbekannt, modClassic, modModern, modPremium);
 
 
@@ -77,16 +77,8 @@ implementation
 // ---------- Hilfsfunktionen für Text-Ausgabe ----------
 // Diese Funktion macht aus dem Aufzählungstyp TMaterial einen String.
 // So kannst du später schön "Holz", "MDF", ... ausgeben.
-function MaterialToStr(M: TMaterial): string;
-begin
-  case M of
-  matHolz: Result := 'Holz';
-  matMDF: Result := 'MDF';
-  matStahl: Result := 'Stahl';
-  else
-    mat Unbekannt: Result := 'Unbekannt'
-  end;
-end;
+
+
 
 
 
