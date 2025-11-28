@@ -21,9 +21,15 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
+<<<<<<< Updated upstream
         <TopLine Value="38"/>
         <CursorPos X="48" Y="48"/>
         <UsageCount Value="20"/>
+=======
+        <TopLine Value="120"/>
+        <CursorPos Y="138"/>
+        <UsageCount Value="22"/>
+>>>>>>> Stashed changes
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>

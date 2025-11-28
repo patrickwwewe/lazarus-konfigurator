@@ -20,6 +20,7 @@
         <ComponentName Value="Form1"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+<<<<<<< Updated upstream
         <IsVisibleTab Value="True"/>
         <TopLine Value="38"/>
         <CursorPos X="69" Y="48"/>
@@ -27,6 +28,25 @@
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+=======
+        <TopLine Value="101"/>
+        <CursorPos X="51" Y="119"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit2"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="121"/>
+        <CursorPos X="50" Y="141"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+>>>>>>> Stashed changes
     </Units>
     <JumpHistory HistoryIndex="17">
       <Position>

@@ -57,4 +57,51 @@ object Form1: TForm1
     TabOrder = 3
     Text = 'Edit2'
   end
+<<<<<<< Updated upstream
+=======
+  object Material: TComboBox
+    Left = 192
+    Height = 49
+    Top = 152
+    Width = 250
+    ItemHeight = 41
+    Items.Strings = (
+      'Holz'
+      'MDF'
+      'Stahl'
+    )
+    TabOrder = 4
+    Text = 'Material'
+    OnChange = MaterialChange
+  end
+  object Modell: TComboBox
+    Left = 192
+    Height = 49
+    Top = 224
+    Width = 250
+    ItemHeight = 41
+    Items.Strings = (
+      'Standard'
+      'Modern'
+      'Premium'
+    )
+    TabOrder = 5
+    Text = 'Modell'
+    OnChange = ModellChange
+  end
+  object Label3: TLabel
+    Left = 0
+    Height = 41
+    Top = 152
+    Width = 86
+    Caption = 'Label3'
+  end
+  object Label4: TLabel
+    Left = 0
+    Height = 41
+    Top = 224
+    Width = 86
+    Caption = 'Label4'
+  end
+>>>>>>> Stashed changes
 end
