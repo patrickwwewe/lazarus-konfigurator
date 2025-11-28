@@ -8,8 +8,10 @@ uses
   {$ENDIF}
   Classes,
   Unit1, Unit2;
+//var
+  //Tuer: TTuer;
 var
-  Tuer: TTuer;
+  hoehe, breite : Integer;
 
 
 

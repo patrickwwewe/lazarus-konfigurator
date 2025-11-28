@@ -6,23 +6,33 @@ uses
   {$IFDEF UNIX}
   cthreads,
   {$ENDIF}
-  {$IFDEF HASAMIGA}
-  athreads,
-  {$ENDIF}
-  Interfaces, // this includes the LCL widgetset
-  Forms, Unit1, Unit2
-  { you can add units after this };
+  Classes,
+  Unit1, Unit2;
+//var
+  //Tuer: TTuer;
+var
+  hoehe, breite : Integer;
 
-{$R *.res}
+
 
 begin
-  RequireDerivedFormResource:=True;
-  Application.Scaled:=True;
-  {$PUSH}{$WARN 5044 OFF}
-  Application.MainFormOnTaskbar:=True;
-  {$POP}
-  Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
-  Application.Run;
+  Writeln('--- Einfacher Tür-Konfigurator (Test) ---');
+  Writeln;
+
+  Write('Bitte Höhe der Tür in mm eingeben: ');
+  Readln(hoehe);
+
+  Write('Bitte Breite der Tür in mm eingeben: ');
+  Readln(breite);
+
+  Writeln;
+  Writeln('Du hast folgende Werte eingegeben:');
+  Writeln('  Höhe  : ', hoehe, ' mm');
+  Writeln('  Breite: ', breite, ' mm');
+
+  Writeln;
+  Writeln('Zum Beenden Enter drücken...');
+  Readln;
+
 end.
 
